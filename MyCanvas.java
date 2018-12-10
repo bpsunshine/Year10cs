@@ -135,10 +135,10 @@ public class MyCanvas extends Canvas implements KeyListener{
 		if(e.getKeyCode() == 32) {
 			//playIt("files/ping");
 			if (link.facing == 0) {
-				Projectile knife = new Projectile(link.getxCoord(), link.getyCoord(), 20, 20,"files/ChainsawRight.png",0);
+				Projectile knife = new Projectile(link.getxCoord(), link.getyCoord(), 50, 50,"files/ChainsawRight.png",0);
 				knives.add(knife);
 			} else {
-				Projectile knife = new Projectile(link.getxCoord(), link.getyCoord(), 20, 20,"files/Chainsawleft.png", 1);
+				Projectile knife = new Projectile(link.getxCoord(), link.getyCoord(), 50, 50,"files/Chainsawleft.png", 1);
 				knives.add(knife);
 			}
 			
